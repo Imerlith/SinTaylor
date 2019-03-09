@@ -46,8 +46,8 @@
                               <Font size="18.0" />
                            </font>
                         </Label>
-                        <Slider fx:id="radslider" layoutX="108.0" layoutY="264.0" majorTickUnit="3.0" max="50.0" min="1.0" minorTickCount="2" prefHeight="38.0" prefWidth="471.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
-                        <Label alignment="CENTER" layoutX="111.0" layoutY="248.0" prefHeight="17.0" prefWidth="468.0" text="Proszę wybrać ilość czegoś" />
+                        <Slider fx:id="radslider" blockIncrement="1.0" layoutX="108.0" layoutY="264.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="38.0" prefWidth="471.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+                        <Label alignment="CENTER" layoutX="111.0" layoutY="248.0" prefHeight="17.0" prefWidth="468.0" text="Proszę wybrać ilość wyrazów ciągu Taylora" />
                      </children></AnchorPane>
             </content>
           </Tab>
